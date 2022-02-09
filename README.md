@@ -43,4 +43,4 @@ Your all set, simply run the project and see the flag status
 1. Run - ```gradle bootRun```
 2. Visit - http://localhost:8080/show/me/the/money
 
-You should see your falg status on the screen
+You should see your flag status on the screen
