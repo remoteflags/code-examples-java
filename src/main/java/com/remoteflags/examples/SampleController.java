@@ -26,6 +26,7 @@ public class SampleController {
         } catch (ApiException e) {
             System.err.println("Exception when calling PublicApi#getStatus");
             System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
         }
         return "No money...";
     }
